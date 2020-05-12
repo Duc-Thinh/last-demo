@@ -1,0 +1,124 @@
+body {
+    font-family: Lucida, sans-serif;
+}
+.wrapper1-table1{
+    display: flex;
+    align-items: center;   
+    padding: 5px 10px ; 
+}
+.logo img{
+    height: 44px;
+}
+.logo {
+    flex-grow: 1;
+}
+.wrapper1-table1 > div:nth-child(2){
+    color: #00a2c7;
+    font-weight: bold;
+    padding: 5px 15px 5px 0px;
+    border-right: 1px solid rgba(0, 0, 0,0.2);
+}
+.wrapper1-table1 > div a{
+    text-decoration: none;
+}
+.wrapper1-table1 > div:nth-child(2) a{
+    color:  #00a2c7;
+    font-weight: 600;
+}
+.wrapper1-table1 > div:nth-child(3) a,div:nth-child(4) a{
+    margin-left: 15px;
+    color: black;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.wrapper1-table1 > div:nth-child(3) a:hover{
+    color: #0098ab;
+}
+
+.wrapper1-table1 > div:nth-child(4) a:hover{
+    color: #0098ab;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+video {
+    width: 100%;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+}
+.words {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+span {
+    display: block;
+}
+.words span:nth-child(1){
+    font-size: 42px;
+    font-weight: bold;
+}
+.wrapper1-table2 {
+    position: relative;
+}
+.words span:nth-child(2){
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.words span:last-child a{
+    font-weight: bold;
+    background-color: #f13a59;
+    background-size: cover;
+    padding: 12px 112px;
+    color: white;
+    text-decoration: none;
+}
+.words span:last-child {
+    margin-top: 36px;
+}
+.words span:last-child a:hover{
+    background-color: #e81035;
+}
+.wrapper1-table3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.tag {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #b3b1b1;
+    border-radius: 8px;
+    background-color: #f6f7f8;
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.tag:hover {
+    border: 1px solid #707070;    
+}
+li {
+    padding-right: 20px;  
+}
+ul {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
